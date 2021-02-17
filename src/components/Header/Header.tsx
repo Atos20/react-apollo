@@ -16,13 +16,17 @@ const Header = () => {
             <FiDroplet/>
             <NavLink className='nav-link' to='/about'>About</NavLink>
           </li>
-          <li>
+          {/* <li>
             <FiDroplet/>
             <NavLink className='nav-link'to='/location'>Location</NavLink>
+          </li> */}
+          <li>
+          <FiDroplet/>
+            <NavLink className='nav-link'to='/contact'>Let' connect!</NavLink>
           </li>
           <li>
           <FiDroplet/>
-            <NavLink className='nav-link'to='/contact'>Contact me!</NavLink>
+            <NavLink className='nav-link'to='/posts'>Post!</NavLink>
           </li>
         </ul>
       </nav>
