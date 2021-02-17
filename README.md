@@ -40,4 +40,20 @@ Goals of the project
 
   - Solidify and practice Typescript, React and Apollo knowledge.
   - Create an applications tha makes use of react-router
-  
+
+For the set up, it was important to make use of Typescript, since I am using `react-router-dom` the following dependencies were required.
+
+- `yarn add @types/react-router-dom`
+
+For the icons I decided to use the react-icons librabry by  intalling them with the following command `npm install react-icons --save`
+
+## Road bumps
+
+When I first initialized this project I decided to made use of `Yarn` as a package manager but I quickly realized that it was a bad idea to have both `npm` and `yarn`. I decided t switch to npm insted just because I had all the commands needed to install the dependencies needed.
+
+Another thing it took me a little bit to figure out was that I had to wrap `App` within `<BrowserRouter>` to use the library. Silly of me!!
+
+## Styling
+
+ I decied to use CSS to handle the styles.
+ I also discovered that in a React project `@import normalize` can be used to normalize `CSS` styles
