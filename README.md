@@ -33,14 +33,27 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## set up
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Goals of the project
 
-## Learn More
+  - Solidify and practice Typescript, React and Apollo knowledge.
+  - Create an applications tha makes use of react-router
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+For the set up, it was important to make use of Typescript, since I am using `react-router-dom` the following dependencies were required.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- `yarn add @types/react-router-dom`
+
+For the icons I decided to use the react-icons librabry by  intalling them with the following command `npm install react-icons --save`
+
+## Road bumps
+
+When I first initialized this project I decided to made use of `Yarn` as a package manager but I quickly realized that it was a bad idea to have both `npm` and `yarn`. I decided t switch to npm insted just because I had all the commands needed to install the dependencies needed.
+
+Another thing it took me a little bit to figure out was that I had to wrap `App` within `<BrowserRouter>` to use the library. Silly of me!!
+
+## Styling
+
+ I decied to use CSS to handle the styles.
+ I also discovered that in a React project `@import normalize` can be used to normalize `CSS` styles

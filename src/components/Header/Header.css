@@ -1,0 +1,38 @@
+.head{
+  height: 20vh;
+  background-color: antiquewhite;
+}
+
+
+
+.nav-link{
+  padding-left: 13px;
+  text-decoration: none;
+}
+
+nav{
+  padding: 4%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav > ul{
+display: flex;
+width: 50vw;
+}
+
+li{
+  display: flex;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  width: 25vw;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  height: 40px;
+
+}
+
+.nav-icon{
+  margin: 1%
+}
